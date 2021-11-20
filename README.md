@@ -1,4 +1,6 @@
-                        { This is My-Reads-App }
+It is a virtual book library based project where the user can place each individual book to a shelf and the shelves would update automatically.
+The user can also query an External API for more books each of which can be placed or removed from different shelves.
+You can also toggle each book to change its shelf.
 
 -Installation
   |> open command line
