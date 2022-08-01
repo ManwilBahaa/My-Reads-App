@@ -30,7 +30,8 @@ class CreateBook extends Component{
                         console.log('\n\nCreateBook :',book.title,"==>>",e.target.value)
                         this.props.handelBookShelf(book,e.target.value)
                         }
-                    }value={book.shelf}>
+                    }
+                    value={book.shelf}>
                         <option value="move" disabled>Move to...</option>
                         <option value="none" >None</option>
                         <option value="currentlyReading" >Currently Reading</option>

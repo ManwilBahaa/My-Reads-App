@@ -31,6 +31,8 @@ class SearchPage extends Component {
            })
        }
      }
+
+
    queryAPI = async(query)=>{
      await BooksAPI.search(query)
       .then((books)=>{
